@@ -14,6 +14,7 @@
   ],
   "dependencies": {
     "alameda": "https://raw.githubusercontent.com/requirejs/alameda/0.2.0/alameda.js",
-    "gaia-component": "gaia-components/gaia-component#master"
+    "gaia-button": "gaia-components/gaia-button#master",
+    "gaia-theme": "gaia-components/gaia-theme#~0.4.5"
   }
 }

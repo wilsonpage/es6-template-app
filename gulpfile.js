@@ -9,7 +9,7 @@ gulp.task('clone', function() {
 });
 
 gulp.task('to5', ['clone'], function() {
-  return gulp.src('dist/**/*.js')
+  return gulp.src('dist/js/**/*.js')
     .pipe(to5({ modules: 'amd' }))
     .pipe(gulp.dest('dist/js/'));
 });

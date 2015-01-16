@@ -1,5 +1,5 @@
 
-import component from 'gaia-component';
+import component from 'gaia-button';
 import foo from './lib/foo';
 
 console.log(component);
