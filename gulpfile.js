@@ -10,7 +10,7 @@ gulp.task('clone', function() {
 
 gulp.task('to5', ['clone'], function() {
   return gulp.src('dist/**/*.js')
-    .pipe(to5({ modules: 'umd' }))
+    .pipe(to5({ modules: 'amd' }))
     .pipe(gulp.dest('dist/js/'));
 });
 
