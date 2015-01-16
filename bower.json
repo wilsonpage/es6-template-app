@@ -1,0 +1,19 @@
+{
+  "name": "es6-modules",
+  "version": "0.0.0",
+  "authors": [
+    "Wilson Page <wilsonpage@me.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "alameda": "https://raw.githubusercontent.com/requirejs/alameda/0.2.0/alameda.js",
+    "gaia-component": "gaia-components/gaia-component#master"
+  }
+}
